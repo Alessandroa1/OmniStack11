@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23b510fa-bfe5-4292-b98f-4442e65e55e1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/SA final" />
+  </component>
+  <component name="ProjectId" id="1TIAnOYf2IxQD2r2bHbJEzNraDm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SA final" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SA\SA4\SA3\js" />
+      <recent name="E:\SA\SA4\SA3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.buscaCliente.html">
+    <configuration name="buscaCliente.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SA3/html/buscaCliente.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="cliente.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SA3/html/cliente.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.buscaCliente.html" />
+        <item itemvalue="JavaScript Debug.cliente.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23b510fa-bfe5-4292-b98f-4442e65e55e1" name="Default Changelist" comment="" />
+      <created>1573137402034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573137402034</updated>
+      <workItem from="1573137403409" duration="1178000" />
+      <workItem from="1573140450009" duration="370000" />
+      <workItem from="1573141116629" duration="876000" />
+      <workItem from="1573946057518" duration="8812000" />
+      <workItem from="1574001491801" duration="1237000" />
+      <workItem from="1574024488495" duration="576000" />
+      <workItem from="1574036894747" duration="1378000" />
+      <workItem from="1574080323900" duration="871000" />
+      <workItem from="1574085645373" duration="1848000" />
+      <workItem from="1574244104310" duration="2034000" />
+      <workItem from="1574255168558" duration="466000" />
+      <workItem from="1575384756585" duration="355000" />
+      <workItem from="1575385718532" duration="187000" />
+      <workItem from="1575385958971" duration="215000" />
+      <workItem from="1585245019449" duration="310000" />
+      <workItem from="1585268305144" duration="1171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="https:/github.com/Alessandroa1/SA1" />
+    </ignored-roots>
+  </component>
+</project>

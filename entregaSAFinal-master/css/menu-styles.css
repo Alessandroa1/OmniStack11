@@ -1,0 +1,226 @@
+/*=== Configuração da Página ===*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #212529;
+}
+
+/*=== Imagem da Logo ===*/
+
+#logo {
+    position: relative;
+    margin: 0 auto;
+    padding: 0px;
+    width: 600px;
+    height: 200px;
+}
+
+#logo img {
+    position: absolute;
+    top: -70px;
+    width: 100%;
+}
+
+#logo img:hover {
+    transform: translateY(-10px);
+    transition: all 0.2s ease-out;
+}
+
+/*=== Menu com Icones ===*/
+
+.box-menu{
+    position: relative;
+    top: -35px;
+    margin: 0 auto;
+    width: 754px;
+    height: 200px;
+}
+
+#nav {
+    background-color: rgba(16,16,16,.5);
+    position: relative;
+    float: left;
+    border: solid 2px black;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+#nav ul li {
+    float: left;
+    font: 16px arial;
+}
+
+#nav ul li a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    padding-left: 42px;
+}
+
+#nav ul li:hover {
+    background-color: #007a99;
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px black;
+    transition: all 0.2s ease-out;
+}
+
+#nav ul li .cadastro-estados a {
+    background: url(image/01-estados.png) no-repeat center;
+    float: left;
+    width: 150px;
+    height: 90px;
+    padding: 30px 0px;
+    bottom: 15px;
+}
+
+#nav ul li .cadastro-cidades a {
+    background: url(image/02-cidades.png) no-repeat center;
+    float: left;
+    width: 150px;
+    height: 90px;
+    padding: 30px 0px;
+    bottom: 15px;
+}
+
+#nav ul li .cadastro-clientes a {
+    background: url(image/03-clientes.png) no-repeat center;
+    float: left;
+    width: 150px;
+    height: 90px;
+    padding: 30px 0px;
+    bottom: 15px;
+}
+
+#nav ul li .pesquisa-clientes {
+    background: url(image/04-pesquisa.png) no-repeat center;
+    float: left;
+    width: 150px;
+    height: 90px;
+    padding: 30px 0px;
+    bottom: 15px;
+}
+
+#nav ul li .relatorio-clientes {
+    background: url(image/05-relatorio.png) no-repeat center;
+    float: left;
+    width: 150px;
+    height: 90px;
+    padding: 30px 0px;
+    bottom: 15px;
+}
+
+/*=== Menu Lateral ===*/
+
+#check[type='checkbox'] {
+    display: none;
+}
+
+#check[type='checkbox']:checked ~ #info
+{
+    transform: translateX(290px);
+}
+#label_input img {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 40px;
+    padding: 15px;
+}
+
+#info {
+    background-color: rgba(16,16,16,.5);
+    width: 290px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: -290px;
+    transition: all 0.5s;
+}
+
+#info a {
+    color: #888;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    padding-left: 42px;
+}
+
+#info ul {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+
+#label_input {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/*=== Espaço de Identificação da página ===*/
+
+#identificacao {
+    width: 750px;
+    height: 35px;
+    background-color: rgba(16,16,16,.5);
+    position: relative;
+    margin: 0 auto;
+    top: 400px;
+    border: 2px solid black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(87, 83, 83, 0.856);
+    display: block;
+    margin-left: 280px;
+    margin-top: 8px;
+    width: 25%;
+}
+
+/*=== Botões de Mais e Menos ===*/
+
+#botao1 {
+    width: 95%;
+    padding: 15px;
+}
+
+#botao1 img {
+    background-color: #212529;
+    width: 30px;
+}
+
+#botao2 {
+    position: absolute;
+    width: 95%;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+#botao2 img {
+    background-color: #212529;
+    width: 30px;
+}
+
+.botao3 {
+    background-color: #212529;
+    border: 0px;
+    float: right;
+    margin-right: -20px;
+}

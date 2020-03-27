@@ -1,0 +1,72 @@
+table {
+	width: 100%;
+	font: 17px Calibri;
+}
+
+table, th, td {
+	border: solid 2px black;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    background-color: rgba(16,16,16,.5);
+    color: #fff;
+}
+
+input[type='button'] {
+	font: 15px Calibri;
+	cursor: pointer;
+	border: none;
+	color: #FFF;
+}
+
+input[type='text'], select {
+	font: 17px Calibri;
+	text-align: center;
+	border: solid 1px #CCC;
+	width: auto;
+	padding: 2px 3px;
+}
+
+#container {
+	position: relative;
+    top: 38px;
+}
+
+#identificacao-relatorio {
+	width: 754px;
+	height: 35px;
+	background-color: rgba(16,16,16,.5);
+	position: absolute;
+	top: 340px;
+	left: 300px;
+	border: 2px solid black;
+}
+
+#p-estado {
+	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgba(87, 83, 83, 0.856);
+    display: block;
+    margin-left: 280px;
+    margin-top: 2px;
+	width: 25%;
+	border: 1px solid black;
+}
+
+#box-print{
+	position: relative;
+	margin: 0 auto;
+	top: 470px;
+	width: 208px;
+	height: 25px;
+}
+
+#print{
+	position: relative;
+    width: 206px;
+    height: 25px;
+    background-color: #1780a2;
+    border: none;
+    color: #fff;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>&#128269;Busca Cliente</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu-styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/busca-styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>  
+    <script src="../js/acessibilidade.js"></script>  
+</head>
+<div id='botao1'>
+    <button onclick='fonte("a");' class='botao3'><img src='../css/image/08-mais.png' /></button>
+</div>
+<div id='botao2'>
+    <button onclick='fonte("d");' class='botao3'><img src='../css/image/09-menos.png' /></button>
+</div>
+
+<div id='identificacao'>
+    <p>Pesquisa de Clientes</p>
+</div>
+
+<div id='logo'>
+    <a href="../index.html"><img src='../css/image/07-logo.png' /></a>
+</div>
+<div class="box-menu">
+    <div id='nav'>
+        <ul class='acessibilidade'>
+            <li class='acessibilidade'><span class='cadastro-estados'><a href='../html/estado.html'></a></span><a href='../html/estado.html'>Estados</a></li>
+            <li class='acessibilidade'><span class='cadastro-cidades'><a href='../html/cidade.html'></a></span><a href='../html/cidade.html'>Cidades</a></li>
+            <li class='acessibilidade'><span class='cadastro-clientes'><a href='../html/cliente.html'></a></span><a href='../html/cliente.html'>Clientes</a></li>
+            <li class='acessibilidade'><span class='pesquisa-clientes'><a href='../html/buscaCliente.html'></a></span><a href='../html/buscaCliente.html'>Pesquisa</a></li>
+            <li class='acessibilidade'><span class='relatorio-clientes'><a href='../html/relatorio.html'></a></span><a href='../html/relatorio.html'>Relatório</a></li>
+        </ul>
+    </div>
+</div>
+
+<body onload="fonte();">    
+        
+    <form id='form-pesquisa' action="javascript:void(0)">              
+        <div>
+            <label class='acessibilidade' for="busca">CPF: </label> 
+            <input class='acessibilidade'type="text" id="busca"  maxlength= "14" minlength="11"  placeholder= "Digite o Cliente" required/>
+        </div>
+        <div>
+        <input type="submit"  onclick="javascript:buscarCliente()" id="pesquisa" value="Pesquisar">
+        </div>        
+    </form>
+    <div id="container"></div>
+</body>
+<script src="../js/crud.js"></script>
+<script src="../js/buscaCliente.js"></script>
+
+</html>

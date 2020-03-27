@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Estado</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu-styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<div id='botao1'>
+    <button onclick='fonte("a");' class='botao3'><img src='../css/image/08-mais.png' /></button>
+</div>
+<div id='botao2'>
+    <button onclick='fonte("d");' class='botao3'><img src='../css/image/09-menos.png' /></button>
+</div>
+
+<div id='identificacao'>
+    <p>Cadastro de Estados</p>
+</div>
+
+<div id='logo'>
+    <a href="../index.html"><img src='../css/image/07-logo.png' /></a>
+</div>
+
+<div class="box-menu">
+    <div id='nav'>
+        <ul class='acessibilidade'>
+            <li class='acessibilidade'><span class='cadastro-estados'><a href='../html/estado.html'></a></span><a href='../html/estado.html'>Estados</a></li>
+            <li class='acessibilidade'><span class='cadastro-cidades'><a href='../html/cidade.html'></a></span><a href='../html/cidade.html'>Cidades</a></li>
+            <li class='acessibilidade'><span class='cadastro-clientes'><a href='../html/cliente.html'></a></span><a href='../html/cliente.html'>Clientes</a></li>
+            <li class='acessibilidade'><span class='pesquisa-clientes'><a href='../html/buscaCliente.html'></a></span><a href='../html/buscaCliente.html'>Pesquisa</a></li>
+            <li class='acessibilidade'><span class='relatorio-clientes'><a href='../html/relatorio.html'></a></span><a href='../html/relatorio.html'>Relatório</a></li>
+        </ul>
+    </div>
+</div>
+
+<body onload="javascript:nomePais(); fonte();">
+
+    <form id='form-estado' onsubmit="event.preventDefault();salvarEstado();">
+        <div>
+            <label class='acessibilidade' for="nome_estado">Estado: </label>
+            <input class='acessibilidade'type="text" id="nome_estado" minlength="4" placeholder="Nome do estado"required>           
+         </div> 
+         <div>
+            <label class='acessibilidade' for="nome_pais">País: </label>
+            <input class='acessibilidade' type="text" id="nome_pais"disabled>              
+        </div>
+        <div>            
+            <input id='enviar' type = "submit" onsubmit='validar();'>
+        </div> 
+    </form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+<script src="../js/estado.js"></script>
+<script src="../js/acessibilidade.js"></script>
+<script src="../js/pais.js"></script>
+</html>
+      

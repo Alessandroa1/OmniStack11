@@ -1,0 +1,187 @@
+#form-cliente {
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    width: 719px;
+    padding: 16px;
+    border: 2px solid black;
+    background-color: rgba(16,16,16,.5);
+}
+
+#form-cidade {
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    width: 719px;
+    padding: 16px;
+    border: 2px solid black;
+    background-color: rgba(16,16,16,.5);
+}
+
+#form-estado {
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    width: 719px;
+    padding: 16px;
+    border: 2px solid black;
+    background-color: rgba(16,16,16,.5);
+}
+
+#form-pesquisa {
+    position: relative;
+    margin: 0 auto;
+    top: 4px;
+    width: 719px;
+    padding: 16px;
+    border: 2px solid black;
+    background-color: rgba(16,16,16,.5);
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    padding-left: 65px;
+}
+
+input, textarea {
+    font: 16px arial;
+    width: 300px;
+    border: 1px solid rgba(87, 83, 83, 0.856);
+}
+
+input:focus, textarea:focus {
+    border-color: #00ccff;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+#salvar-estado {
+    margin-left: 490px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+
+#salvar-cidade {
+    margin-left: 490px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+
+#salvar-cliente {
+    margin-left: 490px;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    background-color: #00ccff;
+    border-color: #00ccff;
+}
+
+.div-button {
+    padding-left: 90px; 
+}
+
+h1 {
+    padding: 10px;
+}
+
+#busca{
+    width:70%;
+}
+
+#pesquisa{
+    padding: 1px 6px 1px ;
+}
+
+#numero{
+    width: 10%;
+}
+
+#sexoF {
+    position: absolute;
+    width: 2%;
+    top: 681px;
+    left: 796px
+}
+
+#sexoM {
+    position: absolute;
+    width: 2%;
+    top: 682px;
+    left: 620px;
+}
+
+#sexoMLabel {
+    position: absolute;
+    top: 679px;
+    left: 415px;
+}
+
+#sexoFLabel {
+    position: absolute;
+    top: 679px;
+    left: 590px;
+}
+
+#sn{
+    position: absolute;
+    right: 185px;
+    top: 234px;
+    background-color: rgba(87, 83, 83, 0.856);
+    color: #00ccff;
+    width: 15%;
+}
+
+#comboEstado {
+    border-color: rgba(87, 83, 83, 0.856);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#comboCidade {
+    border-color: rgba(87, 83, 83, 0.856);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#genero {
+    border-color: rgba(87, 83, 83, 0.856);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cliente_cadastrado{
+
+    width:100%;
+}
+
+#enviar {
+    position: relative;
+    margin-left: 200px;
+}
+
+#pesquisa {
+    position: relative;
+    margin-left: 200px;
+}
+
+#busca {
+    width: 300px;
+}

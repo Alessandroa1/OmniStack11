@@ -1,0 +1,21 @@
+#tabelaClientes {
+    position: relative;
+    margin: 0 auto;
+    border: 2px solid black;
+    top: 8px;
+    width: 755px;
+}
+
+table {
+	width: 100%;
+	font: 17px Calibri;
+}
+
+table, th, td {
+	border: solid 2px black;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+    background-color: rgba(16,16,16,.5);
+    color: #fff;
+}
